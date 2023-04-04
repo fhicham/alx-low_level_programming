@@ -11,3 +11,4 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
+void set_string(char **s, char *to);
