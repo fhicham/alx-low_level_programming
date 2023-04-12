@@ -3,7 +3,7 @@
 
 char **strtow(char *str);
 int word_len(char *str);
-int count_word(char *str);
+int count_words(char *str);
 
 /**
  * word_len - Specifies the location of the index that indicates the
@@ -26,13 +26,13 @@ int word_len(char *str)
 }
 
 /**
- * count_word - counts the number of words contained within a string.
+ * count_words - counts the number of words contained within a string.
  * @str: string to evaluate
  * Return: number of words
  */
-int count_word(char *str)
+int count_words(char *str)
 {
-	int index = 0, word = 0, len = 0;
+	int index = 0, words = 0, len = 0;
 
 	for (index = 0; *(str + index); index++)
 		len++;
@@ -41,12 +41,12 @@ int count_word(char *str)
 	{
 		if (*(str + index) != ' ')
 		{
-			word++;
+			words++;
 			index += word_len(str + index);
 		}
 	}
 
-	return (word);
+	return (words);
 }
 
 /**
