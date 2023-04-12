@@ -3,7 +3,51 @@
 
 char **strtow(char *str);
 int word_len(char *str);
-int count_words(char *str);
+int count_word(char *str);
+
+/**
+ * word_len - Specifies the location of the index that indicates the
+ *            completion of a file
+ * @str: The string you are searching for.
+ * Return: The index that stands for the end of
+ *            the following words denoted by str
+ */
+int word_len(char *str)
+{
+	int index = 0, len = 0;
+
+	while (*(str + index) && *(str + index) != ' ')
+	{
+		len++;
+		index++;
+	}
+
+	return (len);
+}
+
+/**
+ * count_word - counts the number of words contained within a string.
+ * @str: string to evaluate
+ * Return: number of words
+ */
+int count_word(char *str)
+{
+	int index = 0, word = 0, len = 0;
+
+	for (index = 0; *(str + index); index++)
+		len++;
+
+	for (index = 0; index < len; index++)
+	{
+		if (*(str + index) != ' ')
+		{
+			word++;
+			index += word_len(str + index);
+		}
+	}
+
+	return (word);
+}
 
 /**
  * strtow - Converts a string to words
@@ -52,48 +96,4 @@ char **strtow(char *str)
 	strings[w] = NULL;
 
 	return (strings);
-}
-
-/**
- * word_len - Specifies the location of the index that indicates the
- *            completion of a file
- * @str: The string you are searching for.
- * Return: The index that stands for the end of
- *            the following words denoted by str
- */
-int word_len(char *str)
-{
-	int index = 0, len = 0;
-
-	while (*(str + index) && *(str + index) != ' ')
-	{
-		len++;
-		index++;
-	}
-
-	return (len);
-}
-
-/**
- * count_word - counts the number of words contained within a string.
- * @str: string to evaluate
- * Return: number of words
- */
-int count_words(char *str)
-{
-	int index = 0, words = 0, len = 0;
-
-	for (index = 0; *(str + index); index++)
-		len++;
-
-	for (index = 0; index < len; index++)
-	{
-		if (*(str + index) != ' ')
-		{
-			words++;
-			index += word_len(str + index);
-		}
-	}
-
-	return (words);
 }
