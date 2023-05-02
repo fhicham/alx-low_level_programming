@@ -20,23 +20,23 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	new->n = n;
 	new->next = NULL;
 
-	if (*head == NULL && index > 0)
+	if (*head == NULL && idx > 0)
 	{
 		free(new);
 		return (NULL);
 	}
 
-	if (index == 0)
+	if (idx == 0)
 	{
 		new->next = *head;
 		*head = new;
 		return (new);
 	}
 
-	for (; n < index - 1; n++)
+	for (; n < idx - 1; n++)
 	{
 		actualNodo = actualNodo->next;
-		if (actualNodo == NULL && index - n > 0)
+		if (actualNodo == NULL && idx - n > 0)
 		{
 			free(new);
 			return (NULL);
