@@ -3,11 +3,12 @@
 
 /**
  * read_textfile - It reads a text file and prints it to POSIX stdout.
- * @filename: A pointer to the filename.
- * @letters: The number of letters.
- *           The job must be read and printed.
- * Return: If the function fails or if the filename is empty - 0.
- *   O/w - The actual number of bytes that the function can read and print.
+ * @filename: A pointer to the name of the file.
+ * @letters: The number of letters the
+ *           function should read and print.
+ *
+ * Return: If the function fails or filename is NULL - 0.
+ *         O/w - the actual number of bytes the function can read and print.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
