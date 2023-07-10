@@ -7,7 +7,9 @@
  * @letters: letters size
  * Description: Write a function that reads a text file and prints it
  * for standard POSIX output.
+ * Return: The actual number of characters it can read and print, otherwise 0
  */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t fd, w, text;
