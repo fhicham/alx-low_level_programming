@@ -1,6 +1,5 @@
-#include <stdlib.h>
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * read_textfile - Reads and prints a text file
@@ -9,7 +8,6 @@
  * Description: Write a function that reads a text file and prints it
  * for standard POSIX output.
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t fd, w, text;
