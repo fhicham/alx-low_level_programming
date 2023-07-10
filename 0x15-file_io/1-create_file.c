@@ -10,7 +10,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int index = 0, f;
+	int ind = 0, f;
 
 	if (filename == NULL)
 		return (-1);
@@ -19,9 +19,9 @@ int create_file(const char *filename, char *text_content)
 		text_content = "";
 
 
-	while (text_content[index] != '\0')
+	while (text_content[ind] != '\0')
 	{
-		index++;
+		ind++;
 	}
 
 	f = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
@@ -29,7 +29,7 @@ int create_file(const char *filename, char *text_content)
 	if (f == -1)
 		return (-1);
 
-	write(f, text_content, index);
+	write(f, text_content, ind);
 
 	return (1);
 }
