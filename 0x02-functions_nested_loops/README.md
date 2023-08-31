@@ -1,6 +1,8 @@
-C - Functions, nested loops
+# C - Functions, nested loops
 
-//* RESOURCES *//
+![nested-loop-in-c](https://github.com/hfakir/alx-low_level_programming/assets/114278488/7d7dd9e8-6046-4dcc-a6a6-db556269b70e)
+
+# //* RESOURCES *//
 
 https://www.youtube.com/watch?v=Z3iGeQ1gIss
 
