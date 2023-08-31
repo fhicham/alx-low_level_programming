@@ -1,1 +1,13 @@
 C - Functions, nested loops
+
+//* RESOURCES *//
+
+https://www.youtube.com/watch?v=Z3iGeQ1gIss
+
+https://www.tutorialspoint.com/cprogramming/c_functions.htm
+
+https://www.youtube.com/watch?v=qMlnFwYdqIw
+
+https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/
+
+https://www.tutorialspoint.com/cprogramming/c_header_files.htm
