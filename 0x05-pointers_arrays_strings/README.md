@@ -1,4 +1,4 @@
-C - Pointers, arrays and strings
+# C - Pointers, arrays and strings
 
 ![IMG_2410](https://github.com/hfakir/alx-low_level_programming/assets/114278488/21d74447-2b63-403f-bc8b-5ccfa7863774)
 
