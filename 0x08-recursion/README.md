@@ -4,7 +4,7 @@
  
 ## RESOURCES
 
-[0x08. Recursion, introduction](chrome-extension://hmigninkgibhdckiaphhmbgcghochdjc/pdfjs/web/viewer.html?file=https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230901T164144Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=78d929a433700da8618f6f0f8cf56129e5f1b814a838fbfec305d0348e229fa3)
+chrome-extension://hmigninkgibhdckiaphhmbgcghochdjc/pdfjs/web/viewer.html?file=https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230901T164344Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0a18d7b4e7b087dbe780c18ef537c5371d8505c0619e43f11af85ce14f9dafdc
 
 [What on Earth is Recursion?](https://www.youtube.com/watch?v=Mv9NEXX1VHc)
 
