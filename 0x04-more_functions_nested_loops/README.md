@@ -1,6 +1,9 @@
-C - More functions, more nested loops
+# C - More functions, more nested loops
 
-//* RESOURCES *//
+![download](https://github.com/hfakir/alx-low_level_programming/assets/114278488/56871d0c-5522-499e-a73d-ceae27019642)
+
+
+# //* RESOURCES *//
 
 https://www.youtube.com/watch?v=Z3iGeQ1gIss
 
