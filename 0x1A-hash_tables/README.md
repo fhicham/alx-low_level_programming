@@ -8,6 +8,11 @@
 
  [Hash function](https://en.wikipedia.org/wiki/Hash_function)
 
+
+```
+![php](https://github.com/hfakir/alx-low_level_programming/assets/114278488/c3dd517f-f12a-4c3d-bbcf-1dcbfd4ef1ed)
+
+```
  [Hash table](https://en.wikipedia.org/wiki/Hash_table)
 
  [All about hash tables](https://www.digitalocean.com/community/tutorials/hash-table-in-c-plus-plus)
