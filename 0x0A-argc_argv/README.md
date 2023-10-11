@@ -1,5 +1,7 @@
 # C - argc, argv
- 
+
+![download](https://github.com/hfakir/alx-low_level_programming/assets/114278488/8174c390-d50f-4caf-98df-33beb53564e1)
+
 ## RESOURES
  
 [Arguments to main](https://publications.gbdirect.co.uk//c_book/chapter10/arguments_to_main.html)
